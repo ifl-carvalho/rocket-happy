@@ -1,7 +1,9 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-import './pages/global.css'
+import './styles/global.css'
+
+import '../node_modules/leaflet/dist/leaflet.css'
 
 import Routes from './routes';
 

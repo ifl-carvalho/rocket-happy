@@ -1,18 +1,23 @@
-import React from 'react';
+import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import i_Landing from './pages/landing/i_Landing';
-import i_OrphanagesMap from './pages/orphanagesMap/i_OrphanagesMap';
+import Landing from './pages/Landing';
+import OrphanagesMap from './pages/OrphanagesMap';
+import Orphanage from './pages/Orphanage';
+import CreateOrphanage from './pages/CreateOrphanage';
 
 function Routes() {
-    return (
-        <BrowserRouter>
-            <switch>
-                <Route path="/" exact component={i_Landing} />
-                <Route path="/app" component={i_OrphanagesMap} />
-            </switch>
-        </BrowserRouter>
-    );
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Landing} />
+        <Route path="/app" component={OrphanagesMap} />
+
+        <Route path="/orphanages/create" component={CreateOrphanage} />
+        <Route path="/orphanages/:id" component={Orphanage} />
+      </Switch>
+    </BrowserRouter>
+  );
 }
 
 export default Routes;
