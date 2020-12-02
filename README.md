@@ -30,6 +30,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [SQLite](https://www.sqlite.org/index.html)
 - [Handlebars](https://handlebarsjs.com/)
 
+Através desse projeto, aprendi o conceito e aplicação de uma API Rest, utilizando do modelo MVC no backend, e o consumo dessa API em React.JS e React Native.
+
 ## 💻 Projeto
 
 Aplicação idealizada pela Rocketseat na NLW#3 e refeita para fins educacionais. 💜
