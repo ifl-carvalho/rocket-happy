@@ -30,8 +30,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [SQLite](https://www.sqlite.org/index.html)
 - [Handlebars](https://handlebarsjs.com/)
 
-<p>Através desse projeto, aprendi o conceito e aplicação de uma API Rest, utilizando do modelo MVC</p>
-no backend, e o consumo dessa API em React.JS e React Native com EXPO, utilização de ORM e banco de dados SQL.
+<text>Através desse projeto, aprendi o conceito e aplicação de uma API Rest, utilizando do modelo MVC</text>
+<text>no backend, e o consumo dessa API em React.JS e React Native com EXPO, utilização de ORM e banco de dados SQL.</text>
 
 ## 💻 Projeto
 
