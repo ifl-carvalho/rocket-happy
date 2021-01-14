@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [SQLite](https://www.sqlite.org/index.html)
 - [Handlebars](https://handlebarsjs.com/)
 
-Aplicação de uma API Rest e Modelo MVC, consumida pelo Front-End em React.JS e React Native utilizando EXPO.
+Aplicação de uma API Rest e no modelo MVC utilizando TypeORM, consumida pelo Front-End em React.JS e React Native utilizando EXPO.
 
 ## 💻 Projeto
 
